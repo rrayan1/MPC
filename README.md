@@ -4,7 +4,7 @@
 
 This project implements a ** Model Predictive Control (MPC)** system for autonomous racing with two vehicles:
 - **Leader Vehicle**: Uses LMPC to minimize lap time while learning from experience
-- **Follower Vehicle**: Maintains desired gap using simple proportional gap controller
+- **Follower Vehicle**: Maintains desired gap using MPC
 
 The system runs multi-lap simulations on a race track defined in curvilinear coordinates, with the leader vehicle **improving its lap time with each iteration** by learning from previous trajectories.
 
