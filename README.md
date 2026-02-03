@@ -1,8 +1,8 @@
-# LMPC Autonomous Racing System - Leader-Follower Platooning
+# MPC Autonomous Racing System - Leader-Follower Platooning
 
 ## Project Overview
 
-This project implements a **Learning Model Predictive Control (LMPC)** system for autonomous racing with two vehicles:
+This project implements a ** Model Predictive Control (MPC)** system for autonomous racing with two vehicles:
 - **Leader Vehicle**: Uses LMPC to minimize lap time while learning from experience
 - **Follower Vehicle**: Maintains desired gap using simple proportional gap controller
 
